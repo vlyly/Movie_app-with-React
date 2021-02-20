@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Movie_app-with-React/static/css/main.47bfb5ee.chunk.css",
-    "main.js": "/Movie_app-with-React/static/js/main.2ed18c49.chunk.js",
-    "main.js.map": "/Movie_app-with-React/static/js/main.2ed18c49.chunk.js.map",
+    "main.css": "/Movie_app-with-React/static/css/main.01bdb943.chunk.css",
+    "main.js": "/Movie_app-with-React/static/js/main.5b77569d.chunk.js",
+    "main.js.map": "/Movie_app-with-React/static/js/main.5b77569d.chunk.js.map",
     "runtime-main.js": "/Movie_app-with-React/static/js/runtime-main.47f726b7.js",
     "runtime-main.js.map": "/Movie_app-with-React/static/js/runtime-main.47f726b7.js.map",
-    "static/js/2.eac7ba5a.chunk.js": "/Movie_app-with-React/static/js/2.eac7ba5a.chunk.js",
-    "static/js/2.eac7ba5a.chunk.js.map": "/Movie_app-with-React/static/js/2.eac7ba5a.chunk.js.map",
+    "static/js/2.b1ea8236.chunk.js": "/Movie_app-with-React/static/js/2.b1ea8236.chunk.js",
+    "static/js/2.b1ea8236.chunk.js.map": "/Movie_app-with-React/static/js/2.b1ea8236.chunk.js.map",
     "index.html": "/Movie_app-with-React/index.html",
-    "static/css/main.47bfb5ee.chunk.css.map": "/Movie_app-with-React/static/css/main.47bfb5ee.chunk.css.map",
-    "static/js/2.eac7ba5a.chunk.js.LICENSE.txt": "/Movie_app-with-React/static/js/2.eac7ba5a.chunk.js.LICENSE.txt"
+    "static/css/main.01bdb943.chunk.css.map": "/Movie_app-with-React/static/css/main.01bdb943.chunk.css.map",
+    "static/js/2.b1ea8236.chunk.js.LICENSE.txt": "/Movie_app-with-React/static/js/2.b1ea8236.chunk.js.LICENSE.txt",
+    "static/media/01.55b5f0d7.jpg": "/Movie_app-with-React/static/media/01.55b5f0d7.jpg",
+    "static/media/02.0f7c52b6.jpg": "/Movie_app-with-React/static/media/02.0f7c52b6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.47f726b7.js",
-    "static/js/2.eac7ba5a.chunk.js",
-    "static/css/main.47bfb5ee.chunk.css",
-    "static/js/main.2ed18c49.chunk.js"
+    "static/js/2.b1ea8236.chunk.js",
+    "static/css/main.01bdb943.chunk.css",
+    "static/js/main.5b77569d.chunk.js"
   ]
 }
