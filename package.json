@@ -8,16 +8,18 @@
     "@testing-library/user-event": "^12.5.0",
     "axios": "^0.21.1",
     "gh-pages": "^3.1.0",
+    "http-server": "^0.12.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
@@ -38,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage":"https://vlyly.github.io/Movie_app-with-React/"
+  "homepage": "https://vlyly.github.io/Movie_app-with-React/"
 }

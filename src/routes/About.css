@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "NanumBarunGothic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+  src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff")
+      format("woff"),
+    url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf")
+      format("truetype");
+}
+
+.about_container {
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+}
+
+.avatar {
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+.about_comment {
+  width: 60%;
+  word-break: keep-all;
+  text-align: center;
+  font-family: "NanumBarunGothic";
+  line-height: 1.3;
+}
