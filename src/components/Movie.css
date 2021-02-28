@@ -17,6 +17,10 @@ body {
   width: 100vw;
 }
 
+/* .page_container {
+  width: 100%;
+} */
+
 a {
   text-decoration: none;
 }
@@ -51,12 +55,21 @@ button:focus {
 
 /****/
 
+.page_container {
+  display: flex;
+  justify-content: center;
+}
+
 .movies {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: inherit;
+  /* max-width: 1240px; */
+  /* width: auto; */
+  /* width: inherit; */
   padding: 90px 0 70px 0;
+  max-width: 1240px;
 }
 
 .movieContainer {
@@ -220,11 +233,6 @@ button:focus {
 }
 
 /**In desktop**/
-
-.movies {
-  max-width: 1240px;
-  justify-content: space-around;
-}
 
 .movie:last-of-type,
 .movie:nth-of-type(19) {

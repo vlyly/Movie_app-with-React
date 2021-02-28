@@ -30,7 +30,7 @@ function Movie({ year, title, summary, poster, genres }) {
                 </li>
               ))}
             </ul>
-            <p className="movie_summary overflowHidden">
+            <p className="movie_summary">
               {summary.slice(0, 180)}
               {summary.length > 180 && (
                 <button

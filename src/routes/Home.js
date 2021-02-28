@@ -48,7 +48,7 @@ class Home extends React.Component {
     const { isLoading, movies } = this.state;
 
     return (
-      <div>
+      <div className="page_container">
         {isLoading ? (
           <div className="loader">
             <p className="loader_text">Please wait🌻</p>

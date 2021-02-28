@@ -68,8 +68,67 @@ ul {
 
 .detail_movie_genres {
   margin-bottom: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .detail_movie_summary {
   font-size: 15px;
+}
+
+/**Other Devices**/
+
+@media screen and (max-width: 540px) {
+  .detail_container {
+    height: 100vh;
+    /* overflow: scroll; */
+    /* margin: 70px 0; */
+  }
+
+  .soBigContent {
+    height: auto;
+    margin: 90px 0 70px 0;
+  }
+
+  .detail_movie {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  .detail_movie_poster {
+    width: 80px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .detail_movie_data {
+    margin: 0;
+  }
+
+  .detail_movie_title,
+  .detail_movie_year {
+    text-align: center;
+  }
+
+  .detail_movie_title {
+    font-size: 15px;
+  }
+
+  .detail_movie_year,
+  .detail_movie_genres {
+    font-size: 11px;
+  }
+
+  .detail_movie_year {
+    display: block;
+  }
+
+  .detail_movie_genres {
+    justify-content: center;
+  }
+
+  .detail_movie_summary {
+    font-size: 13px;
+  }
 }

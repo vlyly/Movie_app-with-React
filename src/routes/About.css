@@ -36,3 +36,9 @@
   font-family: "NanumBarunGothic";
   line-height: 1.3;
 }
+
+@media screen and (max-width: 540px) {
+  .about_comment {
+    font-size: 15px;
+  }
+}

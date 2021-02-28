@@ -4,11 +4,20 @@ import "./Detail.css";
 class Detail extends React.Component {
   componentDidMount() {
     const { location, history } = this.props;
+    const detailContainer = document.getElementsByClassName("detail_container");
+    const root = document.getElementById("root");
 
     console.log(location.state);
+    console.log(window.innerHeight);
+    // console.log(detailContainer[0].offsetHeight);
 
     if (location.state === undefined) {
       history.push("/");
+    }
+
+    if (detailContainer[0].clientHeight >= window.innerHeight - 60) {
+      detailContainer[0].classList.add("soBigContent");
+      // root.style.overflow = "scroll";
     }
   }
   render() {
