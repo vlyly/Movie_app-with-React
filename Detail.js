@@ -21,7 +21,6 @@ class Detail extends React.Component {
 
   render() {
     const { location } = this.props;
-    console.log(location);
     if (location.state) {
       return (
         <div className="detail_container">
