@@ -8,16 +8,14 @@ class Detail extends React.Component {
     const detailContainer = document.getElementsByClassName("detail_container");
     const root = document.getElementById("root");
 
-    console.log(location.state);
-
     if (location.state === undefined) {
       history.push("/");
     }
 
-    console.log(window.innerHeight + "!");
     if (detailMovie[0].clientHeight >= window.innerHeight) {
       detailContainer[0].classList.add("soBigContent");
       root.style.overflow = "scroll";
+      root.scrollTop = 0;
     }
   }
 
@@ -26,17 +24,6 @@ class Detail extends React.Component {
     console.log(location);
     if (location.state) {
       return (
-        //   <div className="movie">
-        //     <h3 className="movie_title">{location.state.title}</h3>
-        //     <ul>
-
-        //     </ul>
-        //   </div>;)
-        // <div className="abc">
-        //   <div
-        //     className="detail_backgroundImage"
-        //     style={{ backgroundImage: `URL(${location.state.poster})` }}
-        //   ></div>
         <div className="detail_container">
           <div className="detail_movie">
             <img
