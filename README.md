@@ -1,5 +1,5 @@
 <h2>📽영화 리스트📽</h2>
-영화 정보 API를 이용해 리스트 만들기<br>
+영화 정보 API를 이용해 리스트 만들기<strong>(Internet Explorer 미지원)</strong><br>
 
 <h3>목차</h3>
 l. 목표<br>
